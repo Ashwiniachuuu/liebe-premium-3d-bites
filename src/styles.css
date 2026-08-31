@@ -196,3 +196,9 @@
 @utility text-balance-tight {
   text-wrap: balance;
 }
+
+@layer base {
+  section[id] {
+    scroll-margin-top: 6rem;
+  }
+}

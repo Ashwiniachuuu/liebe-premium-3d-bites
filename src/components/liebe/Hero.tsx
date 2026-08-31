@@ -116,14 +116,16 @@ export function Hero() {
               height={1200}
               className="relative w-full drop-shadow-[0_50px_60px_rgba(0,0,0,0.28)]"
             />
-            <img
-              src={burger}
-              alt=""
-              aria-hidden
-              width={1200}
-              height={1200}
-              className="reflect pointer-events-none -mt-16 w-full opacity-30"
-            />
+            <div className="pointer-events-none -mt-20 h-32 overflow-hidden">
+              <img
+                src={burger}
+                alt=""
+                aria-hidden
+                width={1200}
+                height={1200}
+                className="reflect w-full opacity-25"
+              />
+            </div>
           </motion.div>
         </motion.div>
       </div>
